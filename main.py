@@ -90,7 +90,7 @@ def logout():
 @app.route('/download')
 @login_required
 def download():
-    return send_from_directory(directory="static/files", filename="information.pdf")
+    return send_from_directory(directory="static/files", filename="myCV.pdf")
 
 
 if __name__ == "__main__":
